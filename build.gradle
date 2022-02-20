@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'eclipse'
+
+}
+group 'com.star'
+version '1.0-SNAPSHOT'
+description = 'my description'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    //log - logback
+    implementation("ch.qos.logback:logback-classic:1.2.10")
+
+
+}
